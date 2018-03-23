@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec npm run babel-node -- ./server.js",
+    "build": "babel src -d dist",
+    "test": "./node_modules/mocha/bin/mocha --require babel-core/register"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "author": "Anas Aboureada",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "nodemon": "^1.17.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "moment": "^2.21.0",
+    "morgan": "^1.9.0"
+  }
+}

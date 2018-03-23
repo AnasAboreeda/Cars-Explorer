@@ -1,0 +1,52 @@
+{
+    "json": {
+        "products": {
+            "cars": [
+                {
+                    "main": [
+                        {
+                            "model": "XC90",
+                            "type": "SUV",
+                            "img": "https://assets.volvocars.com/intl/~/media/shared-assets/navigation/cars/xc90.png?w=197"
+                        },
+                        {
+                            "model": "XC60",
+                            "type": "SUV",
+                            "img": "https://assets.volvocars.com/intla/~/media/shared-assets/navigation/cars/v426.png?w=197"
+                        },
+                        {
+                            "model": "XC40",
+                            "type": "SUV",
+                            "img": "https://assets.volvocars.com/intl/~/media/shared-assets/navigation/cars/xc40.png?w=197"
+                        },
+                        {
+                            "model": "V90",
+                            "type": "Estate",
+                            "img": "https://assets.volvocars.com/intl/~/media/shared-assets/navigation/cars/v90.png?w=197"
+                        },
+                        {
+                            "model": "V60",
+                            "type": "Estate",
+                            "img": "https://assets.volvocars.com/intl/~/media/shared-assets/navigation/cars/v60.png?w=197"
+                        },
+                        {
+                            "model": "V40",
+                            "type": "Estate",
+                            "img": "https://assets.volvocars.com/intl/~/media/shared-assets/navigation/cars/v40.png?w=197"
+                        },
+                        {
+                            "model": "S90",
+                            "type": "Sedan",
+                            "img": "https://assets.volvocars.com/intl/~/media/shared-assets/navigation/cars/s90.png?w=197"
+                        },
+                        {
+                            "model": "S60",
+                            "type": "Sedan",
+                            "img": "https://assets.volvocars.com/intl/~/media/shared-assets/navigation/cars/s60.png?w=197"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
