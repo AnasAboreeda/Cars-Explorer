@@ -1,0 +1,6 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "expect": true
+  }
+}
