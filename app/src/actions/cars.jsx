@@ -4,10 +4,12 @@ export const LOAD_CARS = 'loadCars';
 export const LOAD_CARS_SUCCESS = 'loadCarsSuccess';
 export const LOAD_CARS_FAIL = 'loadCarsFail';
 export const SHOW_SPINNER = 'showSpinner';
+export const CHANGE_ACTIVE_TYPE = 'changActiveType';
 
 export const loadCarsSuccess = cars => ({ type: LOAD_CARS_SUCCESS, cars });
 export const loadCarsFail = message => ({ type: LOAD_CARS_FAIL, message });
 export const showSpinner = () => ({ type: SHOW_SPINNER });
+export const changeActiveType = carType => ({ type: CHANGE_ACTIVE_TYPE, carType });
 
 export const loadCars = () => (dispatch) => {
   dispatch(showSpinner());

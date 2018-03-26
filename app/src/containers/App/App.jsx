@@ -5,7 +5,7 @@ import CarsContainer from './../Cars/CarsContainer';
 import './App.css';
 
 const App = () => (
-  <div>
+  <div className="app">
     <Header />
     <CarsContainer />
     <ToastContainer />

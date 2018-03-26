@@ -1,0 +1,7 @@
+.cars-container {
+  position: relative;
+  top: 7em;
+  padding: 3em;
+  background-color: #fff;
+  min-height: calc(100vh - 7em);
+}

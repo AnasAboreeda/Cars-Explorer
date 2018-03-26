@@ -1,6 +1,6 @@
 .spinner{
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   padding-top: calc(40vh);
 }

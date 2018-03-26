@@ -1,0 +1,28 @@
+.car-container {
+  flex: 0 1 25%;
+  margin-bottom: 1em;
+}
+
+.car-image {
+  width: 100%;
+}
+
+.car-model {
+  font-weight: bold;
+  font-size: 1.6em;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  color: #161618;
+  padding-bottom: 0.5em;
+}
+
+
+@media screen and (max-width: 900px) {
+  .car-container {
+    flex: 0 1 50%;
+    margin-bottom: 0.5em;
+  }
+  .car-model {
+    font-size: 1em;
+  }
+}

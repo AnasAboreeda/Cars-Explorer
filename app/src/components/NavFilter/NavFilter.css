@@ -1,0 +1,42 @@
+nav {
+  border-bottom: 1px solid #ddd;
+  height: 3em;
+  background: #fbfbfb;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  padding: .7em;
+  font-family: "Arial Narrow","Helvetica Neue",sans-serif;
+  display: inline-block;
+  letter-spacing: .05em;
+  text-transform: capitalize;
+  margin-right: 1em;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  height: 3em;
+  color: #7c7b7b;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid #007bcd;
+  color: #161618;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #007bcd;
+  color: #161618;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-item {
+    font-size: 1em;
+  }
+}
