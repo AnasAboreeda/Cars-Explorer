@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-size: 1rem;
   background-color: #ececec;
+  font-family: "Arial Narrow","Helvetica Neue",sans-serif;
 }
 
 @media screen and (min-width: 2048px) {
