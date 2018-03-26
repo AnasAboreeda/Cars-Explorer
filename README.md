@@ -3,6 +3,10 @@
 This is a simple website reading cars data from API and showing them in a grid with simple filter.
 It is build using React, Redux and CSS.
 
+## Screenshot
+
+![screenshot](screenshot.png)
+
 ## How to run it
 
 ### First you need to run the server
